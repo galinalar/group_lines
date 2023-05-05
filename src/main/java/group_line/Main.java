@@ -75,7 +75,7 @@ public class Main {
                 if (wordsToGroupsNumbers.size() == i)
                     wordsToGroupsNumbers.add(new HashMap<>());
 
-                if (word.equals("\"\""))
+                if (word.equals("\"\"")||word.equals(""))
                     continue;
 
                 for (char element : word.toCharArray()){
